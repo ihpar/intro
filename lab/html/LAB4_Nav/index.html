@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigasyon Uygulaması</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14pt;
+    }
+
+    #nav-ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      background-color: rgb(49, 49, 49);
+      padding: 0;
+    }
+
+    #nav-ul li a {
+      padding: 20px;
+      color: white;
+      background-color: rgb(106, 96, 96);
+      text-decoration: none;
+      display: block;
+      transition: all 400ms;
+    }
+
+    #nav-ul li a.active-link {
+      background-color: rgb(190, 0, 0);
+    }
+
+    #nav-ul li a:hover {
+      background-color: rgb(195, 188, 188);
+    }
+
+    img {
+      height: 253px;
+    }
+
+    .resimli-yazi {
+      background-color: red;
+      margin-top: 100px;
+      padding: 200px;
+      background-image: url("img/kopek.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    input {
+      display: block;
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <ul id="nav-ul">
+    <li><a href="#" class="active-link">Ana Sayfa</a></li>
+    <li><a href="#">Galeri</a></li>
+    <li><a href="#">Hakkımda</a></li>
+    <li style="flex-grow:1;"></li>
+    <li><a href="iletisim.html">İletişim</a></li>
+  </ul>
+
+  <div style="display: flex; justify-content: space-between;">
+    <img src="img/kedi.jpg">
+    <img src="img/kopek.jpg">
+  </div>
+
+  <div class="resimli-yazi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid fugiat iure, voluptatibus unde perferendis, nesciunt accusamus illum iste numquam eius vel libero, molestiae ea ab deserunt excepturi in esse atque.</div>
+
+  <div style="padding: 30px; background-color: aqua; margin-bottom: 150px;">
+
+    <input type="text">
+    <input type="password">
+    <input type="button" value="Click me!">
+    <input type="date">
+
+    <button>Button 2</button>
+  </div>
+</body>
+
+</html>

@@ -4,11 +4,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Benim sitem</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    span {
+      background-color: aqua;
+      display: block;
+    }
+
+    .dv-main {
+      border: 1px solid;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .dv-child {
+      border: 1px red solid;
+    }
+
+    #ch-1 {
+      flex-grow: 5;
+    }
+
+    #ch-2 {
+      flex-grow: 1;
+    }
+  </style>
+
 </head>
 
 <body>
+  <p>Lorem ipsum dolor sit amet, <span>consectetur adipisicing elit.</span> Quos ut rerum earum sapiente, laudantium sint perferendis vero mollitia nostrum numquam non nihil eligendi harum, explicabo, illum expedita perspiciatis alias aliquid.</p>
 
+  <p>Aspernatur minus nam sed suscipit optio illum cum ipsa perferendis
+  <div>asperiores saepe a vero ab, similique molestiae sint ratione nesciunt</div> maxime cupiditate veniam accusantium libero, facere veritatis laboriosam? Nobis, exercitationem?</p>
+
+  <ol>
+    <li>Süt</li>
+    <li>Su</li>
+    <li>
+      <ol>
+        <li>El x</li>
+        <li>El y</li>
+      </ol>
+    </li>
+
+    <li>Ekmek</li>
+  </ol>
+
+  <ul>
+    <li>Süt</li>
+    <li>Su</li>
+    <li>
+      <ol>
+        <li>Elem a</li>
+        <li>Elem b</li>
+      </ol>
+    </li>
+    <li>Ekmek</li>
+  </ul>
+  <div class="dv-main">
+
+    <span class="dv-child" id="ch-1">
+      Minus nostrum debitis
+    </span>
+    <div class="dv-child" id="ch-2">
+      <p>Id dolor harum,</p>
+      <p>Harum placeat laborum</p>
+    </div>
+
+  </div>
+  <p>Sunt itaque harum magni optio distinctio id ad rem commodi quo nobis aperiam dolorem tempora, voluptatem libero officiis qui quam, nulla ex facere non laborum dolore vero sapiente pariatur. Iusto.</p>
+  <p>Accusamus voluptates itaque iusto commodi. Vitae culpa nemo veniam eos quas, quos cupiditate accusantium laborum minima labore dolores animi maiores pariatur quae earum nulla aspernatur minus? Tenetur debitis exercitationem nam!</p>
+  <p>Deleniti libero vero corrupti est earum quae ratione quam ipsa molestias porro aperiam ducimus recusandae tempora ut reiciendis, ullam natus eaque hic iure sit dolore unde! Fugiat commodi deserunt magni!</p>
+  <p>Sequi nobis dolores provident nemo, nisi quod minus odit porro. Magnam provident assumenda odio exercitationem odit eaque aut facere delectus eum quia nam doloremque, ea molestias iure laudantium est deleniti?</p>
+  <p>Natus reiciendis, reprehenderit repudiandae eveniet voluptate odit aliquam quam voluptas numquam et, mollitia consectetur non quidem voluptatibus maxime nisi deserunt praesentium officiis iure delectus cum. Illum eum quas repudiandae hic.</p>
 </body>
 
 </html>
