@@ -32,6 +32,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: center;
       padding: 10px 20px;
       margin: 30px 40px;
       border-radius: 20px;
@@ -39,6 +40,7 @@
 
     #div-alt {
       background-color: #ffffff;
+      padding: 20px;
     }
 
     #div-nav {
@@ -75,6 +77,72 @@
 
     h1 {
       font-size: 20pt;
+    }
+
+    #div-kayit input {
+      width: 90px;
+    }
+
+    .card {
+      border-radius: 20px;
+      border: solid 1px #999999;
+      width: 30%;
+    }
+
+    .card img {
+      width: 100%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    .etiket {
+      background-color: #F7F3F0;
+      padding: 10px;
+      border-radius: 10px;
+      color: #D19163;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+
+    #div-kartlar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .card-texts {
+      padding: 20px;
+    }
+
+    .tarih {
+      color: #999999;
+    }
+
+    .button-link {
+      border: 1px solid #D19163;
+      padding: 8px 12px;
+      text-decoration: none;
+      border-radius: 10px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    .btn {
+      padding: 8px 12px;
+      background-color: #D19163;
+      color: white;
+      border: none;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      margin: 0;
+    }
+
+    .metin-input {
+      padding: 8px 12px;
+      margin-right: -2px;
+      border: none;
+      border-top-left-radius: 8px;
+      border-bottom-left-radius: 8px;
     }
   </style>
 
@@ -115,7 +183,7 @@
         <h2>LIFESTYLE, APRIL 04</h2>
         <h1>I Shouted Above The Sudden Noise</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis delectus fugit molestias repudiandae asperiores.</p>
-        <a href="#">Read More</a>
+        <a class="button-link" href="#">Read More</a>
       </div>
       <div class="div-resimli">
         <img src="img/r1.png">
@@ -127,16 +195,47 @@
   <div id="div-orta">
     <div id="div-orta-yazilar">
       <h3>Orta Bölüm Başlığı</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <p>Lorem ipsum, dolor sit amet.</p>
     </div>
     <div id="div-kayit">
-      <input type="text">
-      <input type="button" value="Subscribe">
+      <input class="metin-input" type="text">
+      <input class="btn" type="button" value="Subscribe">
     </div>
   </div>
 
   <div id="div-alt">
-    Alt Bölüm
+
+    <div style="margin-bottom: 20px; font-size: 20pt;">Featured Articles</div>
+    <div id="div-kartlar">
+
+      <div class="card">
+        <img src="img/r2.png">
+        <div class="card-texts">
+          <span class="etiket">Travel</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <span class="tarih">Aug 24, 2020</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/r3.png">
+        <div class="card-texts">
+          <span class="etiket">Travel</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <span class="tarih">Aug 24, 2020</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/r4.png">
+        <div class="card-texts">
+          <span class="etiket">Travel</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <span class="tarih">Aug 24, 2020</span>
+        </div>
+      </div>
+
+    </div>
   </div>
 
 </body>
