@@ -1,1 +1,1 @@
-# Bilgisayar Mühendisliğine Giriş 2023-24 Güz
+# Bilgisayar Mühendisliğine Giriş 2024-25 Güz
