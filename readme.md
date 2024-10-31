@@ -1,5 +1,9 @@
 # Bilgisayar Mühendisliğine Giriş 2024-25 Güz
 
+## CSS Flexbox
+
+[CSS Flexbox video](https://youtu.be/wsTv9y931o8?list=LL)
+
 ## 08.11.2024'e kadar bilgisayarınıza Python, vscode ve vscode jupyter notebook eklentilerini kurunuz.
 
 [vscode python jupyter notebook installation](https://youtu.be/h1sAzPojKMg)
