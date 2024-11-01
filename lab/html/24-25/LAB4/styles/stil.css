@@ -1,0 +1,53 @@
+* {
+    font-size: 18pt;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    border: 4px solid darkgray;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.onemli {
+    font-weight: bold;
+    font-style: italic;
+    background-color: yellow;
+}
+
+ul {
+    padding-left: 40px;
+    list-style: none;
+}
+
+p.bir {
+    background-color: lightblue;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.bir.padding-10 {
+    color: orange;
+}
+p, a{
+    color: darkmagenta !important;
+}
+
+#list-1 {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#list-2 li {
+    background-color: rgb(150, 64, 64);
+}

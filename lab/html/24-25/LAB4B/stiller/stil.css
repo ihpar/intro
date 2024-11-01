@@ -1,0 +1,46 @@
+* {
+    font-size: 18pt;
+}
+
+a {
+    color: darkcyan;
+}
+
+a:hover {
+    color: orange !important;
+    font-size: 22pt;
+}
+
+.onemli {
+    font-weight: bold;
+    font-style: italic;
+    background-color: yellow;
+}
+
+#p-1 {
+    background-color: lightpink;
+}
+
+#p-1 a {
+    color:aqua;
+}
+
+p.c2 {
+    background-color: lightskyblue;
+}
+
+a, span {
+    text-decoration: underline;
+}
+
+.buyuk {
+    font-size: 200%;
+}
+
+.onemli.buyuk {
+    border: 2px solid black;
+}
+
+ul {
+    list-style-type: square;
+}
