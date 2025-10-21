@@ -1,4 +1,4 @@
-# Bilgisayar Mühendisliğine Giriş 2024-25 Güz
+# Bilgisayar Mühendisliğine Giriş 2025-26 Güz
 
 ## CSS Flexbox
 
