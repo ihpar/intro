@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cerceveli {
+        /*
+        border-style: solid;
+        border-width: 6px;
+        border-color: rgb(8, 164, 164);
+        border-radius: 20px;
+        */
+        border: solid 6px blue;
+      }
+
+      .margins {
+        margin: 40px 0px 20px 15px; /*top right bottom left*/
+      }
+      .padded {
+        padding: 20px;
+      }
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: rgb(192, 192, 170)">
+      <p class="cerceveli padded">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        expedita ex similique vitae inventore reiciendis deleniti excepturi ab
+        odio eius, illo rerum minus perferendis quaerat doloribus iste aut
+        pariatur est!
+      </p>
+      <p class="margins">ikinci paragraf</p>
+    </div>
+
+    <div style="background-color: rgb(224, 41, 41)">
+      <p
+        class="cerceveli"
+        style="
+          margin-top: 50px;
+          margin-left: 100px;
+          margin-right: 60px;
+          margin-bottom: 60px;
+        "
+      >
+        üçüncü paragraf
+      </p>
+      <p>dördüncü paragraf</p>
+    </div>
+    <div class="cerceveli padded">Bölme 1</div>
+    <div class="cerceveli padded">Bölme 2</div>
+    <br /><br />
+    <table>
+      <tr>
+        <td>hücre 1</td>
+        <td colspan="2">hücre 2</td>
+      </tr>
+      <tr>
+        <td>hücre 2.1</td>
+        <td>hücre 2.2</td>
+        <td>hücre 2.3</td>
+      </tr>
+    </table>
+    <br /><br />
+    <table>
+      <tr>
+        <th>Şarkı</th>
+        <th>Albüm</th>
+        <th>Şarkıcı</th>
+      </tr>
+      <tr>
+        <td>İmkansız</td>
+        <td>Zirvedeki Şarkılar</td>
+        <td>Zeki Müren</td>
+      </tr>
+      <tr>
+        <td>Billie Jean</td>
+        <td>Thriller</td>
+        <td>Michael Jackson</td>
+      </tr>
+    </table>
+  </body>
+</html>
