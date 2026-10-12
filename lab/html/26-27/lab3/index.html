@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* Bu aşağıda h1, h2 ve p 
+    elemanlarının stilleri var. */
+
+    /* p {
+      text-align: justify;
+      color: brown;
+    }
+    h1 {
+      text-align: justify;
+      color: brown;
+    }
+    h2 {
+      text-align: justify;
+      color: brown;
+    } */
+
+    h1,
+    h2,
+    p {
+      /* color: rgb(0, 0, 255); */
+      /* color: #0000ff; */
+      /* color: rgb(217, 131, 39); */
+      color: blue;
+    }
+
+    p {
+      font-size: 18pt;
+    }
+
+    #p5 {
+      color: red;
+    }
+
+    #kimya {
+      color: blueviolet;
+    }
+
+    .siyahlar {
+      color: black;
+    }
+
+    .sag {
+      text-align: right;
+    }
+
+    #p5 {
+      /*
+      border-style: solid;
+      border-color: blue;
+      border-width: 12px;
+      */
+      border-radius: 15px;
+      /* border: border-width border-style border-color */
+      border: 12px solid blue;
+      margin-left: 50px;
+      margin-top: 100px;
+      margin-right: 50px;
+      margin-bottom: 75px;
+      padding: 50px 25px 75px 40px;
+    }
+  </style>
+  <link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+  <h1 class="sag">Ana Başlık</h1>
+  <div style="border: 2px solid green;">
+    <p style="color:rgb(128, 0, 0);">Paragraf 1.</p>
+    <p class="siyahlar sag">Paragraf 2.</p>
+  </div>
+  <h2>Alt başlık 1</h2>
+  <div style="background-color: aqua;">
+    <p id="p3" class="sag siyahlar">Paragraf 3.</p>
+    <p class="siyahlar">Paragraf 4.</p>
+    <table>
+      <tr>
+        <th>Şarkı</th>
+        <th>Albüm</th>
+        <th>Şarkıcı</th>
+      </tr>
+      <tr>
+        <td>İmkansız</td>
+        <td>Zirvedeki Şarkılar</td>
+        <td>Zeki Müren</td>
+      </tr>
+      <tr>
+        <td>Billie Jean</td>
+        <td>Thriller</td>
+        <td>Michael Jackson</td>
+      </tr>
+    </table>
+  </div>
+  <h2>Alt başlık 2</h2>
+  <p id="p5"><strong>Lorem</strong> <b>ipsum</b> <i>dolor</i> sit amet, consectetur adipisicing elit. Perferendis facere
+    quia
+    nihil atque adipisci. Cumque amet
+    quia, <mark>esse</mark> architecto temporibus similique illo facere distinctio nostrum voluptate, reprehenderit
+    quas, quod rerum.
+  </p>
+
+  <p> En sevdiğim renk <del> kırmızı </del> <ins> mavi. </ins> </p>
+  <p id="kimya" class="siyahlar">H<sub>2</sub>O</p>
+  <p class="sag">x<sup>3</sup></p>
+  <img src="kedi.webp">
+</body>
+
+</html>
