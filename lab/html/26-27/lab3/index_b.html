@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /*
+    h1 {
+      color: blue;
+    }
+
+    h2 {
+      color: blue;
+    }
+
+    p {
+      color: blue;
+    }
+    */
+
+    /* Burada 1. ve 2. seviye başlık 
+    ve de paragrafların rengini 
+    yeşil yaptım. */
+    h1,
+    h2,
+    p {
+      color: green;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    p {
+      text-align: right;
+    }
+
+    #p-lorem {
+      text-align: left;
+    }
+
+    #h2 {
+      color: #1100aa;
+    }
+
+    #p-lorem,
+    #h2 {
+      text-decoration: underline;
+    }
+
+    .mor {
+      color: purple;
+    }
+
+    .kalinlar {lt Başlık 1
+      font-weight: bold;
+    }
+
+    #ab1 {
+      /*
+      border-style: solid;
+      border-width: 5px;
+      border-color: burlywood;
+      */
+      border: 5px solid burlywood;
+
+      border-radius: 12px;
+
+      /* margin-top: 50px;
+      margin-right: 100px;
+      margin-bottom: 75px;
+      margin-left: 150px; */
+
+      margin: 50px 100px 75px 150px;
+      padding: 30px 50px 40px 75px;
+    }
+  </style>
+  <link rel="stylesheet" href="index_stilleri.css">
+</head>
+lt Başlık 1
+<body>
+  <h1 class="mor">Ana Başlık</h1>
+  <p>Paragraf 1</p>
+  <p style="color: #d2691e;">Paragraf 2</p>
+  <div style="background-color: rgb(173, 185, 196);">
+    <h2 id="ab1">Alt Başlık 1</h2>
+    <p id="p-lorem" class="mor kalinlar">Lorem <b>ipsum</b> <del>dolor</del> <ins>sit</ins> amet consectetur adipisicing
+      elit. Iure delectus dignissimos saepe officiis veniam
+      perspiciatis, <strong>similique</strong> aperiam, distinctio facilis blanditiis quod, modi hic ducimus eaque
+      ratione vel. Fugit, quis
+      labore!</p>
+    <!-- in-line css -->
+    <div style="background-color: red;">
+      <p style="color:rgb(0, 255, 234);">Paragraf 4</p>
+    </div>
+  </div>
+  <h2 id="h2">Alt Başlık 2</h2>
+  <p class="mor"><i>Paragraf</i> <mark>5</mark></p>
+  <p class="kalinlar">Paragraf 6</p>
+  <p class="kalinlar mor">H<sub>2</sub>O x<sup>3</sup></p>
+
+  <table>
+    <tr>
+      <th>Şarkı</th>
+      <th>Albüm</th>
+      <th>Şarkıcı</th>
+    </tr>
+    <tr>
+      <td>İmkansız</td>
+      <td>Zirvedeki Şarkılar</td>
+      <td>Zeki Müren</td>
+    </tr>
+    <tr>
+      <td>Billie Jean</td>
+      <td>Thriller</td>
+      <td>Michael Jackson</td>
+    </tr>
+  </table>
+
+  <img src="kedi.webp">
+</body>
+
+</html>
